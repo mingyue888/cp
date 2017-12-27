@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width,user-scalable=no,
+    minimum-scale=1,maximum-scale=1">
+    <script>
+        var oHtml = document.documentElement;
+        var baseSize = 16, // 基数
+                baseWidth = 375, //量取值大小
+                fontSize =  (document.documentElement.clientWidth / baseWidth * baseSize).toFixed(2) ; //这个就是动态font-size值
+        oHtml.style.fontSize=fontSize+"px";
+    </script>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .x-ipt{
+            width: 20.5rem;
+            height: 2.125rem;
+            font-weight: bolder;
+            border: 1px #c0baba solid;
+            border-radius: 8px;
+            line-height: 2.125rem;
+            margin: 0 auto;
+        }
+        .x-ipt input{
+            width: 20rem;
+            border: 0;
+            outline: none;
+            text-align: center;
+        }
+        .x-img{
+            width: 100%;
+            height: 12.5rem;
+            position: relative;
+        }
+        .x-img img{
+            position: absolute;
+            top:3.75rem;
+            left: 50%;
+            margin-left: -2.0625rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="x-img">
+        <img src="img/gift.png" alt="">
+    </div>
+    <div class="x-ipt">
+        <input type="text" placeholder="输入昵称">
+    </div>
+</body>
+</html>

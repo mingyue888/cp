@@ -1,0 +1,91 @@
+/*css样式重置*/
+*{
+    margin:0;
+    padding:0;
+}
+body,h1,h2,h3,h4,h5,h6,hr,p,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,img,th,td{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family:Microsoft YaHei;
+    word-wrap:break-word;
+}
+.yahei{
+    font-family: "Microsoft YaHei","\5fae\8f6f\96c5\9ed1";
+    *font-family:"微软雅黑";
+}
+.clear{
+    clear:both;
+    font-size:0;
+    height:0;
+    line-height:0;
+    padding:0;
+    margin:0;
+}
+a{
+    text-decoration:none;
+    color:#666666;
+    outline:none;
+}
+a:hover{
+    text-decoration:none;
+    outline:none;
+    zoom:1;
+}
+a:active{
+    star:expression(this.onFocus=this.blur());
+}
+/* :focus{outline:0;} */
+table{
+    border-collapse:collapse;
+    border-spacing:0;
+}
+input,button,select,textarea{
+    outline:none;
+    vertical-align:middle;
+    *font-size:100%;
+}
+input{
+    border:none;
+    *border:0;
+}
+img,input{
+    border:none;
+}
+textarea{
+    resize:none;
+    overflow:auto;
+}
+em{
+    font-style:normal;
+}
+ul,ol,li{list-style:none;}
+.po_re{
+    position:relative;
+}
+.center{
+    text-align: center;
+}
+.lf{
+    float: left;
+}
+.rg{
+    float: right;
+}
+ul li:hover{
+    cursor: pointer;
+}
+::-webkit-input-placeholder{
+    font-size:0.1rem;
+}    /* 使用webkit内核的浏览器 */
+:-moz-placeholder{
+    font-size:0.1rem;
+}                  /* Firefox版本4-18 */
+::-moz-placeholder{
+    font-size:0.1rem;
+}                  /* Firefox版本19+ */
+:-ms-input-placeholder{
+    font-size:0.1rem;
+}           /* IE浏览器 */
+

@@ -1,0 +1,25 @@
+@charset "UTF-8";
+html { background: #fff; }
+.mui-active{background:#fff !important;}
+
+/*首页标题*/
+.headertit { color: #484848; padding-bottom: 20px; padding-top: 20px; background: #fff; margin: 0; }
+
+/*展示图片Dog*/
+.banner-img { width: 100%; display: block; }
+
+/*文字标题*/
+.text-top { position: static; }
+.text-top .text-title { margin-top: 14px; margin-bottom: 14px; font-weight: 700; color: #000; font-family: "微软雅黑"; }
+.text-top .text-p { font-size: 20px; }
+
+.text-bottom { border-bottom: 1px solid #E8E8E8; }
+.text-bottom .mui-table-view:first-child { margin-top: 0px; }
+.text-bottom .text-ul { background-color: #FFF; border: none; }
+.text-bottom .text-ul .text-li { border: none; /*       下方文字*/ }
+.text-bottom .text-ul .text-li .text-p1 { font-size: 35px; color: #254,165,76; font-family: "微软雅黑"; margin-bottom: 19px; color: #fea54c; }
+.text-bottom .text-ul .text-li .text-p3 { font-size: 35px; font-family: "微软雅黑"; color: #FF4D65; margin-bottom: 19px; text-align: left; }
+.text-bottom .text-ul .text-li .text-p2 { font-size: 20px; text-align: left; }
+.text-bottom .text-ul .text-li .text-p4 { font-size: 20px; text-align: right; }
+
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,21 @@
+
+.icon-iphone{color:#CBCBCB;font-size:0.6rem;}/*图标字体*/
+.mui-button-row{position:relative;}/*input框定位*/
+.icon-iphone{position:absolute;left:0.2rem;top:0.4rem;}/*图标定位*/
+.icon-iphone:before{font-size: 0.7rem;}/*图标字体大小*/
+/*输入框*/
+.mui-input-width{width:100% ;padding-left:35px !important;display: block;height:50px !important;}
+/*去掉button按钮默认样式*/
+.bk-pink{outline: none;border: none;width:100%;padding:0.4rem ;height:55px;}
+.bk-pink span{font-size:0.5rem;}
+/*input左侧框*/
+.inpit-left{width:75% !important;display:block;border:1px solid red;margin-right:0.2rem;}
+/*右侧验证码倒计时框*/
+.inpit-right{width:20% !important;height:50px; background: #EEEEEE;border-radius:5px;}
+/*倒计时文字*/
+.inpit-right span{color:#8C8C8C;text-align:center;line-height: 50px;font-size: 0.4rem;height: 50px;}
+/*表单行间距*/
+.mui-button-row{margin-bottom:35px;}
+/*父容器上下边距*/
+.cp-container{padding:0.8rem 0;}
+.cp-row{margin:0 1rem;}

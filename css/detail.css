@@ -1,0 +1,201 @@
+ul,p{margin:0;}
+li{list-style:none;}
+html, body {
+    font-family: "微软雅黑";
+  position: relative;
+  height: 100%; }
+body {
+  background: #fff;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0; }
+
+.swiper-container {
+  width: 100%;
+  height:100%;
+  }
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center; }
+  /*banner自定义*/
+	.swiper-container img{width:100%;}
+    /*banner按钮颜色*/
+	.swiper-pagination-bullet-active{background-color:#fff !important;}
+/*MUI背景色*/
+.mui-content{background-color:#fff !important;}
+.mui-content *{font-family:"微软雅黑";}
+/*LOGO定位*/
+.banner{position:relative;}
+.logo{position:absolute;left:2%;top:2.2rem;z-index: 1000;}
+
+/*项目标题部分*/
+	/*标题父容器左右边距  下边框*/
+	.item{margin:0.7rem 0.2rem 0;border-bottom:1px solid #EDEDED;}
+	/*项目组织者名称*/
+	.itemstitle{font-size:0.27rem;color:#333;line-height:0.30rem;font-family: "微软雅黑";margin-top: 0.1rem;}
+	/*项目声明*/
+	.itemstext{font-size:0.2rem;color:#349cec;font-family: "微软雅黑";font-weight:normal;}
+	/*项目名称*/
+	.itemsname{margin-top:0.2rem;font-size:0.25rem;font-weight:bold;padding-bottom:0.2rem;}
+
+/*项目计数部分*/
+    /*父容器*/
+	.compute{padding:0.2rem 0;margin:0 0.2rem 0;display:flex;justify-content:space-between;border-bottom:1px solid #ededed;}
+	.comtextnum1,.comtextnum2,.comtextnum3{font-size:0.3rem;font-weight:bold;padding-bottom: 0.07rem;}/*计数公用*/
+	.comtextnum1,.comtextnum2{color:#FEAB59;}
+	.comtextnum3{color:#ff4d65;}/*第三个计数颜色*/
+	.comtextbom{color:#8a8a8a;}/*下方文字颜色*/
+    .comtext3{text-align:right;}/*文字右对齐*/
+
+/*项目概述部分*/
+    .xmgstitle{font-weight:bold;font-size:0.25rem;color:#111;margin-bottom:0.15rem;}/*项目描述标题*/
+    .xmgs{padding:0.2rem 0.2rem;/*margin:0 0.2rem;*/border-bottom:1px solid #ededed;}/*父容器*/
+    .xmgs-container{display:flex;justify-content:space-between;}/*按钮父容器*/
+    .xmgs-text{ padding:0.1rem 0.2rem;border-radius:0.04rem;background-color:#f4f4f4;display: block;color:#919191;}/*选项按钮*/
+    .xmgs-text:active{color:#919191;}
+    .xmgs-cilck{border:1px solid #FF4D64;background-color:#fff;color:#FF4D64;}
+
+/*项目详情内容部分*/
+    .xmms-container{margin:0 0.2rem;padding-top:0.15rem;padding-bottom:0.15rem;}/*父容器*/
+    .xmms-text p{font-size:0.18rem;color:#333;line-height:0.24rem;}/*项目描述内文字*/
+    .xmms-text img{width:100%;border-radius:0.05rem;}
+/*项目进展内容部分*/
+.detail_boxs{
+    padding:0 0.2rem;
+}
+.detail_txt{
+    font-size:0.18rem;
+    margin-top:0.2rem;
+    color:#333;
+    line-height:0.3rem;
+}
+.detail_img_dog{
+    width:100%;
+    height:100%;
+    margin-top:0.2rem;
+}
+.donote_btn{
+    width:100%;
+    cursor:pointer;
+    height:0.8rem;
+    color:#fff;
+    background:linear-gradient(to right,#fd8195,#ec3956);
+    text-align: center;
+    line-height:0.8rem;
+    font-size:0.2rem;
+}
+.progress_list{
+    border-left:0.01rem dotted #ddd;
+}
+.pro_jijin_icon{
+    border-radius:50%;
+}
+.pro_dog_1{
+    margin:0.2rem 0;
+    width:100%;
+    border-radius: 0.1rem;
+    padding-left:0.15rem;
+}
+.pro_sec_txt{
+    padding-left:0.15rem;
+    font-size:0.18rem;
+    color:#5e5e5e;
+    line-height:0.3rem;
+}
+.mui-table-view:before{
+    background:none;
+}
+.mui-table-view-cell:after{
+    background-color:#fff;
+}
+.pro_time_icon i{
+    display: inline-block;
+    width:0.28rem;
+    height:0.28rem;
+    background:url(img/time_icon.png) no-repeat ;
+    background-size:80% 80% ;
+    margin-left:-0.1rem;
+}
+/*捐赠记录部分*/
+.jzjl-texttop{display:flex;justify-content:space-between;}/*捐赠姓名 日期父元素*/
+.jzjl-texttop b{color:#010101;font-size:0.15rem ;padding:0.04rem 0 0;}/*捐赠者昵称*/
+.jzjl-texttop span{color:#696969;font-family:"微软雅黑";}/*捐赠日期*/
+.jzjl-textbtm{padding:0.07rem 0 0;}/*捐赠部分*/
+.jzjl-textbtm b{color:#FEA54C;font-family:"微软雅黑";font-weight:bold;padding:0 0.02rem 0;}/*捐赠积分*/
+/*头像大小*/
+.mums-ul img {
+    border-radius: 50%;
+    line-height: 0.55rem !important;
+    max-width:0.55rem !important;
+    height:0.55rem !important;
+}
+/*切换按钮block*/
+.xmmsblock{display:block;}
+.xmms-container>section{display:none;}
+/*底部按钮*/
+.donote_btn {
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    height: 0.5rem;
+    color: #fff;
+    background: linear-gradient(to right, #fd8195, #ec3956);
+    text-align: center;
+    line-height: 0.5rem;
+    font-size: 0.2rem;
+}
+.donote_btn:active{color:#fff;}/*底部按钮点击样式*/
+
+/*捐赠积分页*/
+body{position:relative;}
+/*父容器 整个积分页绝对定位*/
+.donate{position:absolute;z-index: 10000;width:100%;top:0;left:0;right:0;border:1px solid red;}
+/*头部照片遮罩层*/
+.img-mask {
+    width: 100%;
+    height: 2.91rem;
+    background: rgba(0, 3, 3, 0.3);
+}
+/*下方输入*/
+.donating{font-size:0.3rem ;color:#000;font-weight:bold;margin-top:0.05rem;background:#fff;}/*捐赠积分*/
+/*输入部分父容器*/
+.donatediv{background:#fff;width:100%;}
+/*原点*/
+.donate-radius{
+    display:inline-block;
+    border:1px solid #349CEC;
+	width:0.3rem;
+    height:0.3rem;
+	border-radius:0.50rem;
+}
+/*捐赠积分下所有li*/
+.donatingli{border-bottom:1px solid #ebebeb;height:0.7rem;position:relative;}/*积分列表*/
+.donatingli img{position:absolute;top:0.2rem;margin-right:0.1rem;line-height:0.7rem;}/*积分列表原点图片*/
+.donatingli span{line-height:0.7rem;font-size:0.25rem;margin:0 0 0 0.4rem;}/*积分列表文字*/
+.dtinputcontainer input{display:inline-block;margin:0;width:90%;position:absolute;left:0.4rem;
+            border:0;font-size:0.25rem;padding:0.1rem 0.1rem ;}/*第三行input*/
+.dtinputcontainer input:focus{color:#000}
+/*底部积分渠道文字*/
+.integral-channels{color:#FEAB59;line-height:0.15rem;font-size:0.15rem;margin-top:0.08rem;}
+/*整个页面父容器*/
+.div{width:0.3rem;height:0.3rem;border:1px solid red;}
+.layui-m-layerchild{height:3.5rem !important;}/*弹出框高度*/
+.popup{padding:0.2rem;}/*弹出框*/
+.layui-m-anim-up{padding-bottom:0 !important;}/*弹出框*/

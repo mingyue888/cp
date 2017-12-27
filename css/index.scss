@@ -1,0 +1,32 @@
+$font-family:"微软雅黑";
+html{background:#fff;}
+
+/*首页标题*/
+.headertit{color:#484848;padding-bottom: 20px;padding-top:20px;background: #fff;margin:0;}
+/*展示图片Dog*/
+.banner-img{width:100%;display: block;}
+/*文字标题*/
+.text-top{
+    position:static;
+    .text-title{margin-top:14px;margin-bottom:14px;font-weight:700;color:#000;font-family: $font-family;}
+    .text-p{font-size:20px;}
+}
+.text-bottom{ border-bottom: 1px solid #E8E8E8;
+    .mui-table-view:first-child{margin-top:0px;}
+    .text-ul{background-color:#FFF;border:none;        
+          .text-li{border:none;
+            .text-p1{
+            font-size:35px;
+            color:#254,165,76;
+            font-family:$font-family;
+            margin-bottom: 19px;
+            color: rgb(254,165,76);}  
+          .text-p3{font-size: 35px;font-family: $font-family;color:#FF4D65;margin-bottom: 19px;text-align: left;}
+/*       下方文字*/
+          .text-p2{font-size:20px;text-align: left;}
+          .text-p4{font-size:20px;text-align:right;}
+          }
+    }
+    
+}
+                                                       

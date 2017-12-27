@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width,user-scalable=no,
+    minimum-scale=1,maximum-scale=1">
+    <link rel="stylesheet" href="css/1.css">
+    <script>
+        var oHtml = document.documentElement;
+        var baseSize = 16, // 基数
+                baseWidth = 375, //量取值大小
+                fontSize =  (document.documentElement.clientWidth / baseWidth * baseSize).toFixed(2) ; //这个就是动态font-size值
+        oHtml.style.fontSize=fontSize+"px";
+    </script>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .input-group{
+            width: 100%;
+            line-height: 2.5rem;
+            box-sizing: border-box;
+            font-size: 0.9375rem;
+            outline: none;
+            padding: 0rem 0.0625rem;
+        }
+        .input-group input{
+            border: 0;
+        }
+        .input-group input:focus {
+            border-color:rgb(204, 204,204);
+            box-shadow: 0 0 0rem rgb(204, 204,204);
+            outline: none;
+        }
+        /* :-moz-placeholder{
+            font-size: 0.8125rem;
+        }
+        :-ms-input-placeholder{
+            font-size: 0.8125rem;
+        }
+        :-moz-placeholder{
+            font-size: 0.8125rem;
+        }
+        ::-webkit-input-placeholder{
+            font-size: 0.8125rem;
+        } */
+        .x-left{
+            padding: 4.375rem 1.25rem 0 1.25rem;
+        }
+        .outline{
+            height: 3.125rem;
+        }
+        hr{
+            color: #9b9d9e;
+        }
+        .x-pws{
+            margin-top:1.25rem ;
+        }
+        .x-btn{
+            width: 100%;
+            height: 10.3125rem;
+            position: relative;
+        }
+        .x-btn div{
+            width: 20.5rem;
+            height: 3.125rem;
+            background: linear-gradient(to right, #ff819f , #ff4e65);
+            font-size: 1.0625rem;
+            text-align: center;
+            line-height: 3.125rem;
+            color: #fff;
+            position: absolute;
+            left: 50%;
+            margin-left: -10.25rem;
+            top:3.75rem;
+        }
+        .x-head img:nth-child(1){
+            width: 100%
+        }
+        .x-head img:nth-child(2){
+            position: absolute;
+            top: 8.4375rem;
+            width: 4.625rem;
+            left:50%;
+            margin-left: -2.2rem;
+            box-shadow: 0rem 0.3125rem 0.9375rem #999696;
+        }
+        .x-btn{display:block;}
+    </style>
+</head>
+<body>
+    <div class="x-head">
+        <img src="img/head1.png">
+        <img src="img/logo.png" >
+    </div>
+    <div class="x-left">
+        <div class="input-group">
+            <span class="input-group-addon">手机：</span> <br>
+            <input type="text" class="form-control outline" placeholder="输入手机号" >
+        </div>
+        <hr>
+        <div class="input-group x-pws">
+            <span class="input-group-addon ">密码：</span> <br>
+            <input type="password" class="form-control outline" placeholder="请输入密码" >
+        </div>
+        <hr>
+    </div>
+    <a class="x-btn" href="accredit.html">
+        <div>授权</div>
+    </a>
+</body>
+</html>

@@ -1,0 +1,20 @@
+html,Body{
+	background-image: url(../../images/login-and-sign.png);
+	background-size:cover;
+	} 
+	/*按钮父容器*/
+.cp-login-container{
+	border:1px solid #000;
+	width:100%;
+	}
+.cp-login{
+text-align:center;
+border:1px solid #FF99A8;
+border-radius:0.5rem;
+height:0.8rem;
+line-height:0.8rem;
+width:2.33rem;
+display: inline-block;}
+	/*按钮文字*/
+.cp-login span{color:#FF4760;font-size:0.4rem;}
+
